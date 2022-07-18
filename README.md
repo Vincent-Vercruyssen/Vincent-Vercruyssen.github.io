@@ -12,19 +12,7 @@ npm start
 
 Update the webpage and see live changes.
 
-## How to build the finalized website - NEW
-
-First, compile the react webpage:
-
-```bash
-cd react-page/
-npm run build
-```
-
-Then, copy the `index.html` file, the `manifest.json` file, and the `static/` folder from the `react-page/build/` folder to the project root folder.
-Finally, git push and pull.
-
-## How to build the finalized website - OLD
+## How to build the finalized website
 
 To update/change the page, go to the folder `react-page/`.
 
