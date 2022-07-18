@@ -67,6 +67,7 @@ export const useStyles = makeStyles((theme) => ({
   // CONTENT
   content: {
     margin: theme.spacing(4, 0, 2, 2), // TLBR
+    height: "100%",
   },
   tabPanel: {
     backgroundColor: "#fafafa",
@@ -90,7 +91,7 @@ export const useStyles = makeStyles((theme) => ({
     position: "fixed",
     bottom: 0,
     width: "100%",
-    backgroundColor: "#2d3e48",
+    backgroundColor: "#00867d", //"#2d3e48",
     minHeight: "20px",
     marginTop: "auto",
   },
