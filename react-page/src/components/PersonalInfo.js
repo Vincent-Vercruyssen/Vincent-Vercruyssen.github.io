@@ -13,7 +13,7 @@ import LinkedInIcon from "@material-ui/icons/LinkedIn"; // linkedin
 import Link from "@material-ui/core/Link";
 
 import { useStyles } from "../styling/styles";
-import profile from "./_resources/imgs/profile.png";
+import profile from "./_resources/imgs/profile-2.png";
 
 // ----------------------------------------
 // Data

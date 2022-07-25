@@ -9,7 +9,8 @@
     "print": null,
     "pdf": "https://lirias.kuleuven.be/retrieve/404545",
     "presentation": null,
-    "doi": null
+    "doi": null,
+    "comingsoon": false
   },
   "id1": {
     "type": "workshop",
@@ -21,7 +22,8 @@
     "print": null,
     "pdf": "https://lirias.kuleuven.be/retrieve/469246",
     "presentation": null,
-    "doi": null
+    "doi": null,
+    "comingsoon": false
   },
   "id2": {
     "type": "workshop",
@@ -39,7 +41,8 @@
     "print": null,
     "pdf": "https://lirias.kuleuven.be/retrieve/550412",
     "presentation": null,
-    "doi": "https://link.springer.com/chapter/10.1007/978-3-030-48861-1_1"
+    "doi": "https://link.springer.com/chapter/10.1007/978-3-030-48861-1_1",
+    "comingsoon": false
   },
   "id3": {
     "type": "workshop",
@@ -52,7 +55,8 @@
     "print": null,
     "pdf": "https://lirias.kuleuven.be/retrieve/404545",
     "presentation": "${resourceLoc}/publications/2020/EDML_workshop_presentation.pdf",
-    "doi": null
+    "doi": null,
+    "comingsoon": false
   },
   "id4": {
     "type": "workshop",
@@ -68,7 +72,8 @@
     "print": null,
     "pdf": "https://lirias.kuleuven.be/retrieve/603216",
     "presentation": null,
-    "doi": "https://link.springer.com/chapter/10.1007/978-3-030-65965-3_27"
+    "doi": "https://link.springer.com/chapter/10.1007/978-3-030-65965-3_27",
+    "comingsoon": false
   },
   "id5": {
     "type": "conference",
@@ -87,7 +92,8 @@
     "print": null,
     "pdf": "https://lirias.kuleuven.be/retrieve/517147",
     "presentation": "${resourceLoc}/publications/2018/ICDM_presentation.pdf",
-    "doi": "https://ieeexplore.ieee.org/document/8594877"
+    "doi": "https://ieeexplore.ieee.org/document/8594877",
+    "comingsoon": false
   },
   "id6": {
     "type": "conference",
@@ -105,7 +111,8 @@
     "print": null,
     "pdf": "https://lirias.kuleuven.be/retrieve/550408",
     "presentation": "${resourceLoc}/publications/2019/ECMLPKDD_presentation.pdf",
-    "doi": "https://link.springer.com/chapter/10.1007/978-3-030-46150-8_15"
+    "doi": "https://link.springer.com/chapter/10.1007/978-3-030-46150-8_15",
+    "comingsoon": false
   },
   "id7": {
     "type": "conference",
@@ -117,7 +124,8 @@
     "print": null,
     "pdf": "https://epubs.siam.org/doi/epdf/10.1137/1.9781611976236.15",
     "presentation": null,
-    "doi": "https://epubs.siam.org/doi/10.1137/1.9781611976236.15"
+    "doi": "https://epubs.siam.org/doi/10.1137/1.9781611976236.15",
+    "comingsoon": false
   },
   "id8": {
     "type": "conference",
@@ -129,7 +137,8 @@
     "print": null,
     "pdf": "https://lirias.kuleuven.be/retrieve/553516",
     "presentation": "${resourceLoc}/publications/2020/AAAI_presentation.pdf",
-    "doi": "https://ojs.aaai.org//index.php/AAAI/article/view/6068"
+    "doi": "https://ojs.aaai.org//index.php/AAAI/article/view/6068",
+    "comingsoon": false
   },
   "id9": {
     "type": "conference",
@@ -141,7 +150,8 @@
     "print": null,
     "pdf": "https://lirias.kuleuven.be/retrieve/581772",
     "presentation": "${resourceLoc}/publications/2020/IJCAI_conference_presentation.pdf",
-    "doi": "https://www.ijcai.org/Proceedings/2020/403"
+    "doi": "https://www.ijcai.org/Proceedings/2020/403",
+    "comingsoon": false
   },
   "id10": {
     "type": "conference",
@@ -154,7 +164,8 @@
     "print": null,
     "pdf": "https://lirias.kuleuven.be/retrieve/582042",
     "presentation": null,
-    "doi": "https://link.springer.com/chapter/10.1007/978-3-030-67664-3_14"
+    "doi": "https://link.springer.com/chapter/10.1007/978-3-030-67664-3_14",
+    "comingsoon": false
   },
   "id11": {
     "type": "manuscript",
@@ -187,7 +198,8 @@
     "print": null,
     "pdf": "https://lirias.kuleuven.be/retrieve/628511",
     "presentation": null,
-    "doi": null
+    "doi": null,
+    "comingsoon": false
   },
   "id13": {
     "type": "conference",
@@ -200,7 +212,8 @@
     "print": null,
     "pdf": "https://lirias.kuleuven.be/retrieve/669390",
     "presentation": "https://aaai-2022.virtualchair.net/poster_aaai12660",
-    "doi": "https://ojs.aaai.org/index.php/AAAI/article/view/20331"
+    "doi": "https://ojs.aaai.org/index.php/AAAI/article/view/20331",
+    "comingsoon": false
   },
   "id14": {
     "type": "conference",
@@ -218,6 +231,21 @@
     "print": null,
     "pdf": null,
     "presentation": null,
-    "doi": null
+    "doi": null,
+    "comingsoon": true
+  },
+  "id15": {
+    "type": "workshop",
+    "title": "Systematic Evaluation of CASH Search Strategies for Unsupervised Anomaly Detection",
+    "authors": ["Ioannis Antoniadis", "Vincent Vercruyssen", "Jesse Davis"],
+    "year": 2022,
+    "venue": "4th International Workshop on Learning with Imbalanced Domains: Theory and Applications @ ECML/PKDD (LIDTA)",
+    "code": null,
+    "datasets": null,
+    "print": null,
+    "pdf": null,
+    "presentation": null,
+    "doi": null,
+    "comingsoon": true
   }
 }

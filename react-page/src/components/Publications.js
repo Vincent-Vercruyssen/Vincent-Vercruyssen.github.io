@@ -89,7 +89,7 @@ const Publication = ({ publication, sorter }) => {
         </CardContent>
       </CardActionArea>
       <CardActions>
-        {publication.pdf && (
+        {!publication.comingsoon && publication.pdf && (
           <Button
             size="small"
             color="primary"
@@ -99,7 +99,7 @@ const Publication = ({ publication, sorter }) => {
             pdf
           </Button>
         )}
-        {publication.code && (
+        {!publication.comingsoon && publication.code && (
           <Button
             size="small"
             color="primary"
@@ -109,7 +109,7 @@ const Publication = ({ publication, sorter }) => {
             code
           </Button>
         )}
-        {publication.datasets && (
+        {!publication.comingsoon && publication.datasets && (
           <Button
             size="small"
             color="primary"
@@ -119,7 +119,7 @@ const Publication = ({ publication, sorter }) => {
             datasets
           </Button>
         )}
-        {publication.doi && (
+        {!publication.comingsoon && publication.doi && (
           <Button
             size="small"
             color="primary"
@@ -129,7 +129,7 @@ const Publication = ({ publication, sorter }) => {
             doi
           </Button>
         )}
-        {publication.presentation && (
+        {!publication.comingsoon && publication.presentation && (
           <Button
             size="small"
             color="primary"
@@ -138,6 +138,11 @@ const Publication = ({ publication, sorter }) => {
           >
             presentation
           </Button>
+        )}
+        {publication.comingsoon && (
+          <Typography variant="body2" color="textSecondary">
+            <em>Links coming soon!</em>
+          </Typography>
         )}
       </CardActions>
     </Card>
