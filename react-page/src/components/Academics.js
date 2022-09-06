@@ -13,6 +13,26 @@ import { useStyles } from "../styling/styles";
 const academicActivities = {
   professional: [
     {
+      function: "Editorial board member",
+      year: "2021 - now",
+      venue: "Machine Learning Journal (MLJ)",
+    },
+    {
+      function: "Reviewer",
+      year: "2021 - now",
+      venue: "Data mining and knowledge discovery (DAMI)",
+    },
+    {
+      function: "Reviewer",
+      year: 2022,
+      venue: "Neural Computing and Applications (NCAA)",
+    },
+    {
+      function: "Reviewer",
+      year: 2022,
+      venue: "MDPI Applied Sciences",
+    },
+    {
       function: "PC member",
       year: 2022,
       venue: "36th Conference on Artificial Intelligence (AAAI)",
@@ -26,16 +46,6 @@ const academicActivities = {
       function: "Reviewer",
       year: 2021,
       venue: "Machine Learning (MACH)",
-    },
-    {
-      function: "Reviewer",
-      year: 2021,
-      venue: "Data mining and knowledge discovery (DAMI)",
-    },
-    {
-      function: "Editorial board member",
-      year: 2021,
-      venue: "Machine Learning Journal (MLJ)",
     },
     {
       function: "PC member",
