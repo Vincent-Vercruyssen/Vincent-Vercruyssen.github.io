@@ -10,6 +10,7 @@
     "pdf": "https://lirias.kuleuven.be/retrieve/404545",
     "presentation": null,
     "doi": null,
+    "arxiv": null,
     "comingsoon": false
   },
   "id1": {
@@ -23,6 +24,7 @@
     "pdf": "https://lirias.kuleuven.be/retrieve/469246",
     "presentation": null,
     "doi": null,
+    "arxiv": null,
     "comingsoon": false
   },
   "id2": {
@@ -42,6 +44,7 @@
     "pdf": "https://lirias.kuleuven.be/retrieve/550412",
     "presentation": null,
     "doi": "https://link.springer.com/chapter/10.1007/978-3-030-48861-1_1",
+    "arxiv": null,
     "comingsoon": false
   },
   "id3": {
@@ -53,9 +56,10 @@
     "code": "https://github.com/Lorenzo-Perini/StabilityRankings_AD",
     "dataset": "https://www.dbs.ifi.lmu.de/research/outlier-evaluation/DAMI/",
     "print": null,
-    "pdf": "https://lirias.kuleuven.be/retrieve/404545",
+    "pdf": "https://lirias.kuleuven.be/retrieve/603216",
     "presentation": "${resourceLoc}/publications/2020/EDML_workshop_presentation.pdf",
-    "doi": null,
+    "doi": "https://link.springer.com/chapter/10.1007/978-3-030-65965-3_27",
+    "arxiv": null,
     "comingsoon": false
   },
   "id4": {
@@ -70,9 +74,10 @@
     "venue": "Explainable Agency in Artificial Intelligence Workshop @ AAAI (XAI)",
     "code": "https://github.com/karthajee/AWS-IF-interpretability",
     "print": null,
-    "pdf": "https://lirias.kuleuven.be/retrieve/603216",
+    "pdf": "https://arxiv.org/pdf/2112.06858.pdf",
     "presentation": null,
-    "doi": "https://link.springer.com/chapter/10.1007/978-3-030-65965-3_27",
+    "doi": "https://www.dropbox.com/s/15t66599tpgpj2u/AAA-21%20Explainable%20Agency%20in%20AI%20Workshop%20Proceedings.pdf?dl=0",
+    "arxiv": "https://arxiv.org/abs/2112.06858",
     "comingsoon": false
   },
   "id5": {
@@ -93,6 +98,7 @@
     "pdf": "https://lirias.kuleuven.be/retrieve/517147",
     "presentation": "${resourceLoc}/publications/2018/ICDM_presentation.pdf",
     "doi": "https://ieeexplore.ieee.org/document/8594877",
+    "arxiv": null,
     "comingsoon": false
   },
   "id6": {
@@ -112,6 +118,7 @@
     "pdf": "https://lirias.kuleuven.be/retrieve/550408",
     "presentation": "${resourceLoc}/publications/2019/ECMLPKDD_presentation.pdf",
     "doi": "https://link.springer.com/chapter/10.1007/978-3-030-46150-8_15",
+    "arxiv": null,
     "comingsoon": false
   },
   "id7": {
@@ -125,6 +132,7 @@
     "pdf": "https://epubs.siam.org/doi/epdf/10.1137/1.9781611976236.15",
     "presentation": null,
     "doi": "https://epubs.siam.org/doi/10.1137/1.9781611976236.15",
+    "arxiv": null,
     "comingsoon": false
   },
   "id8": {
@@ -138,6 +146,7 @@
     "pdf": "https://lirias.kuleuven.be/retrieve/553516",
     "presentation": "${resourceLoc}/publications/2020/AAAI_presentation.pdf",
     "doi": "https://ojs.aaai.org//index.php/AAAI/article/view/6068",
+    "arxiv": null,
     "comingsoon": false
   },
   "id9": {
@@ -151,6 +160,7 @@
     "pdf": "https://lirias.kuleuven.be/retrieve/581772",
     "presentation": "${resourceLoc}/publications/2020/IJCAI_conference_presentation.pdf",
     "doi": "https://www.ijcai.org/Proceedings/2020/403",
+    "arxiv": null,
     "comingsoon": false
   },
   "id10": {
@@ -165,6 +175,7 @@
     "pdf": "https://lirias.kuleuven.be/retrieve/582042",
     "presentation": null,
     "doi": "https://link.springer.com/chapter/10.1007/978-3-030-67664-3_14",
+    "arxiv": null,
     "comingsoon": false
   },
   "id11": {
@@ -177,7 +188,9 @@
     "print": null,
     "pdf": "https://lirias.kuleuven.be/retrieve/596934",
     "presentation": null,
-    "doi": "https://limo.libis.be/primo-explore/fulldisplay?docid=LIRIAS3275415&context=L&vid=Lirias&search_scope=Lirias&tab=default_tab&fromSitemap=1"
+    "doi": "https://limo.libis.be/primo-explore/fulldisplay?docid=LIRIAS3275415&context=L&vid=Lirias&search_scope=Lirias&tab=default_tab&fromSitemap=1",
+    "arxiv": null,
+    "cominsoon": false
   },
   "id12": {
     "type": "workshop",
@@ -199,6 +212,7 @@
     "pdf": "https://lirias.kuleuven.be/retrieve/628511",
     "presentation": null,
     "doi": null,
+    "arxiv": null,
     "comingsoon": false
   },
   "id13": {
@@ -213,6 +227,7 @@
     "pdf": "https://lirias.kuleuven.be/retrieve/669390",
     "presentation": "https://aaai-2022.virtualchair.net/poster_aaai12660",
     "doi": "https://ojs.aaai.org/index.php/AAAI/article/view/20331",
+    "arxiv": null,
     "comingsoon": false
   },
   "id14": {
@@ -232,6 +247,7 @@
     "pdf": null,
     "presentation": null,
     "doi": null,
+    "arxiv": null,
     "comingsoon": true
   },
   "id15": {
@@ -240,12 +256,13 @@
     "authors": ["Ioannis Antoniadis", "Vincent Vercruyssen", "Jesse Davis"],
     "year": 2022,
     "venue": "4th International Workshop on Learning with Imbalanced Domains: Theory and Applications @ ECML/PKDD (LIDTA)",
-    "code": null,
-    "datasets": null,
+    "code": "https://github.com/johnantonn/cash-for-unsupervised-ad",
+    "datasets": "https://www.dbs.ifi.lmu.de/research/outlier-evaluation/DAMI/",
     "print": null,
     "pdf": null,
     "presentation": null,
     "doi": null,
+    "arxiv": null,
     "comingsoon": true
   }
 }

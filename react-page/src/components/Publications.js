@@ -17,6 +17,7 @@ import SlideshowIcon from "@material-ui/icons/Slideshow";
 import DescriptionIcon from "@material-ui/icons/Description";
 import PublicIcon from "@material-ui/icons/Public";
 import FolderOpenIcon from "@material-ui/icons/FolderOpen";
+import StorageIcon from "@material-ui/icons/Storage";
 
 import { useStyles } from "../styling/styles";
 
@@ -139,9 +140,19 @@ const Publication = ({ publication, sorter }) => {
             presentation
           </Button>
         )}
+        {!publication.comingsoon && publication.arxiv && (
+          <Button
+            size="small"
+            color="primary"
+            startIcon={<StorageIcon />}
+            onClick={(e) => handleLinkClick(e, "arxiv")}
+          >
+            arXiv
+          </Button>
+        )}
         {publication.comingsoon && (
           <Typography variant="body2" color="textSecondary">
-            <em>Links coming soon!</em>
+            <em>More links coming soon!</em>
           </Typography>
         )}
       </CardActions>
