@@ -248,7 +248,7 @@
     "presentation": null,
     "doi": null,
     "arxiv": null,
-    "comingsoon": true
+    "comingsoon": false
   },
   "id15": {
     "type": "workshop",
@@ -263,6 +263,6 @@
     "presentation": null,
     "doi": null,
     "arxiv": null,
-    "comingsoon": true
+    "comingsoon": false
   }
 }

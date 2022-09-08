@@ -14,6 +14,8 @@ Update the webpage and see live changes.
 
 ## How to build the finalized website
 
+### 1. Manual
+
 To update/change the page, go to the folder `react-page/`.
 
 When you are ready, build the webpage with the following commands:
@@ -25,3 +27,11 @@ npm run build
 
 Then, copy the `index.html` file, the `manifest.json` file, and the `static/` folder from the `react-page/build/` folder to the project root folder.
 Finally, git push and pull.
+
+### 2. Automatic
+
+Go to the root folder and run the `compile.sh` file.
+
+```bash
+./compile.sh
+```
