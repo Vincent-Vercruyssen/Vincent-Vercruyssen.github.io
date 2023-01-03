@@ -56,11 +56,12 @@ a {
   text-decoration-color: var(--accent-color);
   text-decoration-style: solid;
   text-decoration-thickness: 1px;
-  transition: color 0.1s;
+  transition: color 0.1s, text-decoration-thickness 0.1s;
 }
 
 a:hover {
   color: var(--accent-color);
+  text-decoration-thickness: 2px;
   cursor: pointer;
 }
 
