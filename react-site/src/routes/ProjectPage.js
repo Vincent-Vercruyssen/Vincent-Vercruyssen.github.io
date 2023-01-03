@@ -1,9 +1,10 @@
 import { useEffect, useState } from "react";
-import reactMarkdown from "react-markdown";
-import Grid from "@mui/material/Unstable_Grid2"; // renaming
-import { ReactMarkdown } from "react-markdown/lib/react-markdown";
 
-export default function ProjectPage() {
+import ReactMarkdown from "react-markdown";
+import Section from "../components/Section";
+import SectionWrapper from "../components/SectionWrapper";
+
+const ProjectPage = () => {
   const [content, setContent] = useState("");
 
   useEffect(() => {
@@ -13,8 +14,12 @@ export default function ProjectPage() {
   }, []);
 
   return (
-    <Grid style={{ textAlign: "justify" }}>
-      <ReactMarkdown children={content} />
-    </Grid>
+    <SectionWrapper>
+      <Section textAlign="justify">
+        <ReactMarkdown>{content}</ReactMarkdown>
+      </Section>
+    </SectionWrapper>
   );
-}
+};
+
+export default ProjectPage;

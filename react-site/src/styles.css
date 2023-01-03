@@ -1,0 +1,147 @@
+/* variables */
+:root {
+  --primary-color: #115dee;
+  --secondary-color: #eea211;
+  --accent-color: #115dee;
+  --text-color: rgb(50, 50, 50);
+  --grey-color: rgb(194, 194, 194);
+  --bg-color: #fafafa;
+}
+
+/* root */
+body {
+  margin: 0;
+  font-family: "Mukta", sans-serif, serif, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue";
+  font-weight: 400;
+  /* font-size = usually 16 px */
+  font-size: 100%;
+  color: var(--text-color);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--bg-color);
+}
+
+/* links */
+a {
+  color: var(--text-color);
+  text-decoration-line: underline;
+  text-decoration-color: var(--accent-color);
+  text-decoration-style: solid;
+  text-decoration-thickness: 1px;
+  transition: color 0.1s;
+}
+
+a:hover {
+  color: var(--accent-color);
+  cursor: pointer;
+}
+
+.navLink {
+  color: var(--text-color);
+  font-weight: bolder;
+  text-decoration-line: none;
+  text-decoration-color: var(--accent-color);
+  transition: color 0.1s;
+}
+
+.navLink:hover {
+  color: var(--accent-color);
+  cursor: pointer;
+}
+
+/* section title */
+.sectionTitle {
+  width: 100%;
+  text-align: left;
+  border-bottom: 1px dashed var(--grey-color);
+  line-height: 0.1em;
+  margin-bottom: 2rem;
+}
+
+.sectionTitle > span {
+  background: var(--bg-color);
+  margin: 0 20px;
+  padding: 0px 15px;
+}
+
+/* arrow */
+.arrowIcon {
+  width: 0.8rem;
+}
+
+.arrowIcon:hover {
+  color: var(--accent-color);
+  cursor: pointer;
+  width: 0.8rem;
+}
+
+/* bullet */
+.bullet {
+  display: flex;
+  margin-bottom: 2rem;
+  font-size: 0.9rem;
+}
+
+/* clickable */
+.bullet .clickableHeader {
+  transition: color 0.2s;
+}
+
+.bullet .clickableHeader:hover {
+  cursor: pointer;
+  color: var(--accent-color);
+}
+
+.bullet .clickableHeader > .title {
+  color: grey;
+  transition: color 0.2s;
+}
+
+.bullet .clickableHeader:hover > .title {
+  color: var(--accent-color);
+}
+
+.bullet .clickableHeader > .subtitle {
+  font-weight: bolder;
+}
+
+.bullet .clickableHeader > .info {
+  font-style: italic;
+}
+
+.bullet .detailsOpen {
+  transition: max-height 0.2s linear;
+}
+
+.bullet .detailsClose {
+  overflow: hidden;
+  transition: max-height 0.2s linear;
+}
+
+.bullet .clickableArrow {
+  width: 1rem;
+}
+
+.bullet .clickableArrow:hover {
+  color: var(--accent-color);
+  cursor: pointer;
+}
+
+/* static */
+.bullet .staticHeader > .title {
+  color: grey;
+}
+
+.bullet .staticHeader > .subtitle {
+  font-weight: bolder;
+}
+
+.bullet .staticHeader > .info {
+  font-style: italic;
+}
+
+.bullet .staticArrow {
+  width: 1rem;
+}

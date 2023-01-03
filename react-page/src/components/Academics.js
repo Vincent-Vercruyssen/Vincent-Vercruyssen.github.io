@@ -12,41 +12,41 @@ import { useStyles } from "../styling/styles";
 
 const academicActivities = {
   professional: [
-    {
-      function: "Editorial board member",
-      year: "2021 - now",
-      venue: "Machine Learning Journal (MLJ)",
-    },
-    {
-      function: "Reviewer",
-      year: "2021 - now",
-      venue: "Data mining and knowledge discovery (DAMI)",
-    },
-    {
-      function: "Reviewer",
-      year: 2022,
-      venue: "Neural Computing and Applications (NCAA)",
-    },
-    {
-      function: "Reviewer",
-      year: 2022,
-      venue: "MDPI Applied Sciences",
-    },
-    {
-      function: "PC member",
-      year: 2022,
-      venue: "36th Conference on Artificial Intelligence (AAAI)",
-    },
-    {
-      function: "PC member",
-      year: 2022,
-      venue: "SIAM International Conference on Data Mining (SDM)",
-    },
-    {
-      function: "Reviewer",
-      year: 2021,
-      venue: "Machine Learning (MACH)",
-    },
+    // {
+    //   function: "Editorial board member",
+    //   year: "2021 - now",
+    //   venue: "Machine Learning Journal (MLJ)",
+    // },
+    // {
+    //   function: "Reviewer",
+    //   year: "2021 - now",
+    //   venue: "Data mining and knowledge discovery (DAMI)",
+    // },
+    // {
+    //   function: "Reviewer",
+    //   year: 2022,
+    //   venue: "Neural Computing and Applications (NCAA)",
+    // },
+    // {
+    //   function: "Reviewer",
+    //   year: 2022,
+    //   venue: "MDPI Applied Sciences",
+    // },
+    // {
+    //   function: "PC member",
+    //   year: 2022,
+    //   venue: "36th Conference on Artificial Intelligence (AAAI)",
+    // },
+    // {
+    //   function: "PC member",
+    //   year: 2022,
+    //   venue: "SIAM International Conference on Data Mining (SDM)",
+    // },
+    // {
+    //   function: "Reviewer",
+    //   year: 2021,
+    //   venue: "Machine Learning (MACH)",
+    // },
     {
       function: "PC member",
       year: 2021,

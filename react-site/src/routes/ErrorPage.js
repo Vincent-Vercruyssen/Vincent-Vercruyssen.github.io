@@ -2,7 +2,7 @@ import { useRouteError } from "react-router-dom";
 
 // pretty much all of your errors will now be handled by this page
 // instead of infinite spinners, unresponsive pages, or blank screens
-export default function ErrorPage() {
+const ErrorPage = () => {
   const error = useRouteError();
   console.error(error);
 
@@ -23,4 +23,6 @@ export default function ErrorPage() {
       </p>
     </div>
   );
-}
+};
+
+export default ErrorPage;

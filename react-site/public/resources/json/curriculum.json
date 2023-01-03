@@ -1,0 +1,72 @@
+{
+  "2020 - now": {
+    "jobtitle": "Postdoctoral researcher Artificial Intelligence",
+    "start": 2020,
+    "end": null,
+    "institute": "DTAI Research Group, KU Leuven",
+    "country": "Belgium",
+    "grade": null,
+    "link": "https://dtai.cs.kuleuven.be/",
+    "abstract": null
+  },
+  "2015 - 2020": {
+    "jobtitle": "PhD. student Computer Science",
+    "start": 2015,
+    "end": 2020,
+    "institute": "DTAI Research Group, KU Leuven",
+    "country": "Belgium",
+    "grade": null,
+    "link": "https://dtai.cs.kuleuven.be/",
+    "abstract": "As a PhD student at the [DTAI Research Group](https://dtai.cs.kuleuven.be/) under the supervision of [Professor Jesse Davis](https://www.kuleuven.be/wieiswie/en/person/00071880) I researched novel methods for anomaly detection, time series analysis and forecasting, transfer learning, and human-in-the-loop machine learning. I designed and implemented new machine learning algorithms, validated them through extensive experiments on both benchmark and real-world data, and communicated the main insights and findings in published, scientific papers. On multiple occations, I presented my work to large audiences in various settings (scientific, industrial, and educational)."
+  },
+  "Summer 2014": {
+    "jobtitle": "Internship: Customer Churn Prediction",
+    "start": 2014,
+    "end": 2014,
+    "institute": "Applied Data Mining Group, University of Antwerp",
+    "country": "Belgium",
+    "grade": null,
+    "link": "https://www.uantwerpen.be/en/research-groups/applied-data-mining/",
+    "abstract": "Over the course of several months, I worked with [Professor David Martens](https://www.uantwerpen.be/en/staff/david-martens/) at the [Applied Data Mining Group](https://www.uantwerpen.be/en/research-groups/applied-data-mining/)  on building a B2B customer churn prediction model that takes into account information contained in the social network relations between different companies based on shared members of the executive team or shared members of the board of directors. The work resulted in an abstract and a poster presented at a scientific conference."
+  },
+  "2014 - 2015": {
+    "jobtitle": "Master of Science: Artificial Intelligence",
+    "start": 2014,
+    "end": 2015,
+    "institute": "KU Leuven",
+    "country": "Belgium",
+    "grade": "magna cum laude",
+    "link": "https://wms.cs.kuleuven.be/cs/studeren/master-artificial-intelligence",
+    "abstract": "The advanced [Master of Science: Artificial Intelligence](https://wms.cs.kuleuven.be/cs/studeren/master-artificial-intelligence) taught at the [KU Leuven](https://onderwijsaanbod.kuleuven.be/opleidingen/e/CQ_50268936.htm#activetab=diploma_omschrijving) is a thorough one-year programme that trains its students in all areas of knowledge-based technology and its application across various fields. I wrote my thesis on *EEG/ECoG-based BCI for Movement Prediction* under the supervision of [Professor Marc Van Hulle](https://www.kuleuven.be/wieiswie/en/person/00013308). I graduated the program *magna cum laude*."
+  },
+  "2012 - 2014": {
+    "jobtitle": "Master of Science: Business Engineering",
+    "start": 2012,
+    "end": 2014,
+    "institute": "University of Antwerp",
+    "country": "Belgium",
+    "grade": "magna cum laude",
+    "link": "https://www.uantwerpen.be/en/study/programmes/all-programmes/business-engineering-programmes/master/",
+    "abstract": "The [Master of Science: Business Engineering](https://www.uantwerpen.be/en/study/programmes/all-programmes/business-engineering-programmes/master/) taught at the [University of Antwerp](https://www.uantwerpen.be/en/) is a two-year programme that combines economics and business courses with technology courses. I majored in *finance* with a minor in *innovation management*. My thesis topic was *System Dynamic Behaviour of Distributed Energy Resources* under the supervision of [Professor Herbert Peremans](https://www.uantwerpen.be/en/staff/herbert-peremans/). I graduated the program *magna cum laude*."
+  },
+  "Summer 2012": {
+    "jobtitle": "Summer School: the American Business Environment",
+    "start": 2012,
+    "end": 2012,
+    "institute": "Georgetown University & Johns Hopkins University",
+    "country": "Washington DC, USA",
+    "grade": "magna cum laude",
+    "link": null,
+    "abstract": null
+  },
+  "2009 - 2012": {
+    "jobtitle": "Bachelor of Science: Business Engineering",
+    "start": 2009,
+    "end": 2012,
+    "institute": "University of Antwerp",
+    "country": "Belgium",
+    "grade": "magna cum laude",
+    "link": "https://www.uantwerpen.be/en/study/programmes/all-programmes/business-engineering-programmes/bachelor/",
+    "abstract": null
+  }
+}
