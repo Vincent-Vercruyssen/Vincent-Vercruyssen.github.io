@@ -25,7 +25,7 @@ cd react-site/
 npm run build
 ```
 
-Then, copy the `index.html` file, the `manifest.json` file, and the `static/` folder from the `react-site/build/` folder to the project root folder.
+Then, copy the `index.html` file, the `manifest.json` file, the `resources/`, and the `static/` folder from the `react-site/build/` folder to the project root folder.
 Finally, git push and pull.
 
 ### 2. Automatic

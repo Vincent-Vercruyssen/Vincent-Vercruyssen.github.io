@@ -1,14 +1,11 @@
-import ReactMarkdown from "react-markdown";
-import Section from "../components/Section";
-import SectionWrapper from "../components/SectionWrapper";
+import { MarkdownSection } from "../components/Section";
+import PageWrapper from "../components/PageWrapper";
 
 const BlogPage = () => {
   return (
-    <SectionWrapper>
-      <Section textAlign="justify">
-        <ReactMarkdown>Coming soon... maybe 🤷‍♂️.</ReactMarkdown>
-      </Section>
-    </SectionWrapper>
+    <PageWrapper>
+      <MarkdownSection>Coming soon... maybe 🤷‍♂️.</MarkdownSection>
+    </PageWrapper>
   );
 };
 

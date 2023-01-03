@@ -2,8 +2,10 @@ import { useEffect, useState } from "react";
 
 import Grid from "@mui/material/Unstable_Grid2"; // renaming
 import ReactMarkdown from "react-markdown";
-import Section from "../components/Section.js";
-import SectionWrapper from "../components/SectionWrapper.js";
+import { Section } from "../components/Section.js";
+import PageWrapper from "../components/PageWrapper.js";
+
+import "../styles.css";
 
 const HomePage = () => {
   const [content, setContent] = useState("");
@@ -16,17 +18,14 @@ const HomePage = () => {
   }, []);
 
   return (
-    <SectionWrapper>
+    <PageWrapper>
       <Section>
-        <Grid container spacing={2}>
-          <Grid md={4} xs={12} style={{ paddingTop: "1rem" }}>
+        <Grid container>
+          <Grid md={4} xs={12} display="flex">
             <img
               src="/resources/imgs/me-stylized1.jpeg"
               alt="profile"
-              style={{
-                maxWidth: "100%",
-                borderRadius: "1rem",
-              }}
+              className="homeImage"
             />
           </Grid>
           <Grid md xs={12} style={{ textAlign: "justify" }}>
@@ -34,7 +33,7 @@ const HomePage = () => {
           </Grid>
         </Grid>
       </Section>
-    </SectionWrapper>
+    </PageWrapper>
   );
 };
 

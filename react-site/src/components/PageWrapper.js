@@ -1,7 +1,6 @@
 import Grid from "@mui/material/Unstable_Grid2"; // renaming
-import "../styles.css";
 
-const SectionWrapper = ({ children }) => {
+const PageWrapper = ({ children }) => {
   return (
     <Grid container style={{ marginBottom: "5rem" }}>
       {children}
@@ -9,4 +8,4 @@ const SectionWrapper = ({ children }) => {
   );
 };
 
-export default SectionWrapper;
+export default PageWrapper;

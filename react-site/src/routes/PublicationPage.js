@@ -2,8 +2,8 @@ import { useEffect, useState } from "react";
 import _ from "lodash";
 
 import ReactMarkdown from "react-markdown";
-import Section from "../components/Section";
-import SectionWrapper from "../components/SectionWrapper";
+import { Section, MarkdownSection } from "../components/Section";
+import PageWrapper from "../components/PageWrapper";
 import ClickableBullet from "../components/ClickableBullet";
 
 import "../styles.css";
@@ -91,18 +91,16 @@ const PublicationPage = () => {
   }, []);
 
   return (
-    <SectionWrapper>
-      <Section textAlign="justify">
-        <ReactMarkdown>
-          Here you can find an overview of my scientific publications. You can
-          also find these publications on my
-          [Lirias](https://www.cs.kuleuven.be/publicaties/lirias/TEST2/mypubs.php?unum=U0105845)
-          or [Google
-          Scholar](https://scholar.google.be/citations?user=6hNLTrAAAAAJ&hl=en&oi=ao)
-          profile. Click on any publication to read its abstract and view the
-          links.
-        </ReactMarkdown>
-      </Section>
+    <PageWrapper>
+      <MarkdownSection>
+        Here you can find an overview of my scientific publications. You can
+        also find these publications on my
+        [Lirias](https://www.cs.kuleuven.be/publicaties/lirias/TEST2/mypubs.php?unum=U0105845)
+        or [Google
+        Scholar](https://scholar.google.be/citations?user=6hNLTrAAAAAJ&hl=en&oi=ao)
+        profile. Click on any publication to read its abstract and view the
+        links.
+      </MarkdownSection>
       {/* loop over publications */}
       {_.map(pubYears, (year, ID) => {
         return (
@@ -113,7 +111,7 @@ const PublicationPage = () => {
           </Section>
         );
       })}
-    </SectionWrapper>
+    </PageWrapper>
   );
 };
 

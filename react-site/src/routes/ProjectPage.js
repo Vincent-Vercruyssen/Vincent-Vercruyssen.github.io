@@ -1,8 +1,7 @@
 import { useEffect, useState } from "react";
 
-import ReactMarkdown from "react-markdown";
-import Section from "../components/Section";
-import SectionWrapper from "../components/SectionWrapper";
+import { MarkdownSection } from "../components/Section";
+import PageWrapper from "../components/PageWrapper";
 
 const ProjectPage = () => {
   const [content, setContent] = useState("");
@@ -14,11 +13,9 @@ const ProjectPage = () => {
   }, []);
 
   return (
-    <SectionWrapper>
-      <Section textAlign="justify">
-        <ReactMarkdown>{content}</ReactMarkdown>
-      </Section>
-    </SectionWrapper>
+    <PageWrapper>
+      <MarkdownSection>{content}</MarkdownSection>
+    </PageWrapper>
   );
 };
 

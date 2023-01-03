@@ -23,6 +23,32 @@ body {
   background-color: var(--bg-color);
 }
 
+.rootContainer {
+  max-width: 750px;
+  position: relative;
+  min-height: 97vh;
+}
+
+.rootContainer > .rootContent {
+  margin-top: 2rem;
+  padding-bottom: 2.5rem;
+}
+
+.rootContainer > .rootFooter {
+  position: absolute;
+  bottom: 0;
+  height: 2.5rem;
+  width: 90%;
+}
+
+.rootHeader {
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: dashed var(--grey-color);
+  border-width: 1px;
+  align-items: "flex-end";
+}
+
 /* links */
 a {
   color: var(--text-color);
@@ -51,6 +77,37 @@ a:hover {
   cursor: pointer;
 }
 
+/* navLink header image */
+.navLink .headerImage {
+  max-width: 100%;
+  border-radius: 50%;
+  filter: grayscale(100%);
+}
+
+.navLink:hover .headerImage {
+  filter: none;
+}
+
+/* arrow */
+.clickableArrow {
+  width: 0.8rem;
+}
+
+.clickableArrow:hover {
+  color: var(--accent-color);
+  cursor: pointer;
+  width: 0.8rem;
+}
+
+/* homepage image */
+.homeImage {
+  margin-top: auto;
+  margin-bottom: auto;
+  max-width: 85%;
+  border-radius: 1rem;
+  filter: drop-shadow(0 0 1rem var(--grey-color));
+}
+
 /* section title */
 .sectionTitle {
   width: 100%;
@@ -64,17 +121,6 @@ a:hover {
   background: var(--bg-color);
   margin: 0 20px;
   padding: 0px 15px;
-}
-
-/* arrow */
-.arrowIcon {
-  width: 0.8rem;
-}
-
-.arrowIcon:hover {
-  color: var(--accent-color);
-  cursor: pointer;
-  width: 0.8rem;
 }
 
 /* bullet */
