@@ -2,7 +2,7 @@
 
 ## How to do development
 
-To develop the webpage, go to the folder `react-page/`.
+To develop the webpage, go to the folder `react-site/`.
 Then, run `npm` to spin up a development version of the site.
 
 ```bash
@@ -16,7 +16,7 @@ Update the webpage and see live changes.
 
 ### 1. Manual
 
-To update/change the page, go to the folder `react-page/`.
+To update/change the page, go to the folder `react-site/`.
 
 When you are ready, build the webpage with the following commands:
 
@@ -25,7 +25,7 @@ cd react-page/
 npm run build
 ```
 
-Then, copy the `index.html` file, the `manifest.json` file, and the `static/` folder from the `react-page/build/` folder to the project root folder.
+Then, copy the `index.html` file, the `manifest.json` file, and the `static/` folder from the `react-site/build/` folder to the project root folder.
 Finally, git push and pull.
 
 ### 2. Automatic
