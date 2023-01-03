@@ -1,0 +1,292 @@
+{
+  "2022": [
+    {
+      "type": "conference",
+      "title": "Multi-domain Active Learning for Semi-supervised Anomaly Detection",
+      "authors": [
+        "Vincent Vercruyssen",
+        "Lorenzo Perini",
+        "Wannes Meert",
+        "Jesse Davis"
+      ],
+      "venue": "European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases",
+      "venueAbbr": "ECML PKDD",
+      "doi": null,
+      "pdf": "https://2022.ecmlpkdd.org/wp-content/uploads/2022/09/sub_481.pdf",
+      "dataset": null,
+      "code": "https://github.com/Vincent-Vercruyssen/ALBA-paper",
+      "presentation": null,
+      "comingsoon": false,
+      "abstract": "Active learning aims to ease the burden of collecting large amounts of annotated data by intelligently acquiring labels during the learning process that will be most helpful to learner. Current active learning approaches focus on learning from a single dataset. However, a common setting in practice requires simultaneously learning models from multiple datasets, where each dataset requires a separate learned model. This paper tackles the less-explored multi-domain active learning setting. We approach this from the perspective of multi-armed bandits and propose the active learning bandits (Alba) method, which uses bandit methods to both explore and exploit the usefulness of querying a label from different datasets in subsequent query rounds. We evaluate our approach on a benchmark of 7 datasets collected from a retail environment, in the context of a real-world use case of detecting anomalous resource usage. Alba outperforms existing active learning strategies, providing evidence that the standard active learning approaches are less suitable for the multi-domain setting.",
+      "bibtex": ""
+    },
+    {
+      "type": "workshop",
+      "title": "Systematic Evaluation of CASH Search Strategies for Unsupervised Anomaly Detection",
+      "authors": ["Ioannis Antoniadis", "Vincent Vercruyssen", "Jesse Davis"],
+      "venue": "International Workshop on Learning with Imbalanced Domains: Theory and Applications @ EMCL PKDD",
+      "venueAbbr": "LIDTA @ ECML PKDD",
+      "doi": "https://proceedings.mlr.press/v183/antoniadis22a",
+      "pdf": "https://proceedings.mlr.press/v183/antoniadis22a/antoniadis22a.pdf",
+      "dataset": "https://www.dbs.ifi.lmu.de/research/outlier-evaluation/DAMI/",
+      "code": "https://github.com/johnantonn/cash-for-unsupervised-ad",
+      "presentation": null,
+      "comingsoon": false,
+      "abstract": "Anomaly detection is an important data mining task that aims to detect abnormal examples in a dataset. Dozens of unsupervised algorithms have been developed for this task, each of which can be finely controlled via multiple hyperparameters. Therefore, choosing an algorithm that works well for a new dataset has traditionally been a time-consuming trial-and-error process. Moreover, any ground-truth labels to guide this process are hard to come by in real-world anomaly detection problems. On the other hand, if we are able to collect a small, labeled validation set, we could leverage the AutoML paradigm to automate this model search. While the off-the-shelf AutoML search strategies for combined algorithm selection and hyperparameter optimization (CASH) are effective for supervised classification and regression tasks, they require the availability of plenty of ground-truth labels and large validation sets. It is unclear whether CASH will be equally effective for anomaly detection problems where the validation sets are typically small at best and not always representative of the test set at worst. In this paper, we present a discussion and experimental evaluation of how the structure of the validation set, i.e., its size and label bias, impacts the performance of different CASH search strategies within the context of anomaly detection.",
+      "bibtex": ""
+    }
+  ],
+  "2021": [
+    {
+      "type": "conference",
+      "title": "Transferring the Contamination Factor between Anomaly Detection Domains by Shape Similarity",
+      "authors": ["Lorenzo Perini", "Vincent Vercruyssen", "Jesse Davis"],
+      "venue": "AAAI Conference on Artificial Intelligence",
+      "venueAbbr": "AAAI",
+      "doi": "https://ojs.aaai.org/index.php/AAAI/article/view/20331",
+      "pdf": "https://lirias.kuleuven.be/retrieve/669390",
+      "dataset": "https://archive.ics.uci.edu/ml/datasets/detection_of_IoT_botnet_attacks_N_BaIoT",
+      "code": "https://github.com/Lorenzo-Perini/TransferContamination",
+      "presentation": null,
+      "comingsoon": false,
+      "abstract": "Anomaly detection attempts to find examples in a dataset that do not conform to the expected behavior. Algorithms for this task assign an anomaly score to each example representing its degree of anomalousness. Setting a threshold on the anomaly scores enables converting these scores into a discrete prediction for each example. Setting an appropriate threshold is challenging in practice since anomaly detection is often treated as an unsupervised problem. A common approach is to set the threshold based on the dataset's contamination factor, i.e., the proportion of anomalous examples in the data. While the contamination factor may be known based on domain knowledge, it is often necessary to estimate it by labeling data. However, many anomaly detection problems involve monitoring multiple related, yet slightly different entities (e.g., a fleet of machines). Then, estimating the contamination factor for each dataset separately by labeling data would be extremely time-consuming. Therefore, this paper introduces a method for transferring the known contamination factor from one dataset (the source domain) to a related dataset where it is unknown (the target domain). Our approach does not require labeled target data and is based on modeling the shape of the distribution of the anomaly scores in both domains. We theoretically analyze how our method behaves when the (biased) target domain anomaly score distribution converges to its true one. Empirically, our method outperforms several baselines on real-world datasets.",
+      "bibtex": ""
+    },
+    {
+      "type": "workshop",
+      "title": "The Effect of Hyperparameter Tuning on the Comparative Evaluation of Anomaly Detection Methods",
+      "authors": [
+        "Jonas Soenen",
+        "Elia Van Wolputte",
+        "Lorenzo Perini",
+        "Vincent Vercruyssen",
+        "Wannes Meert",
+        "Jesse Davis",
+        "Hendrik Blockeel"
+      ],
+      "venue": "Outlier Detection and Description workshop @ KDD",
+      "venueAbbr": "ODD",
+      "doi": null,
+      "pdf": "https://lirias.kuleuven.be/retrieve/628511",
+      "dataset": "https://www.dbs.ifi.lmu.de/research/outlier-evaluation/DAMI/",
+      "code": "https://github.com/ML-KULeuven/comparative-evaluation-of-anomaly-detection-methods",
+      "presentation": null,
+      "comingsoon": false,
+      "abstract": "Anomaly detection aims at finding observations in a dataset that do not conform to expected behavior. Researchers have proposed a large variety of anomaly detection algorithms and their performance is greatly affected by how a user sets each algorithm's hyperparameters. However, the anomaly detection literature does not agree on how to set these hyperparameters when experimentally comparing different algorithms. Most papers compare either performance using 'default' settings, or maximal performance under optimal settings. In this paper, we argue that both strategies fail to capture what practitioners are actually interested in: how well does the algorithm perform in practice? They are either too pessimistic, assuming no tuning, or unrealistically optimistic, assuming optimal tuning; and they often result in methodologically unsound and irreproducible comparisons between algorithms. We therefore propose to use a small validation set to tune an anomaly detector's hyperparameters on a per dataset basis. We argue this is realistic, striking the balance between keeping the cost of acquiring labeled data low and selecting the hyperparameters in a fair, sound, and reproducible manner. We provide a theoretical lower bound on the validation set size based on probability of an anomaly detector achieving a higher area under the ROC curve than a random detector. Using a benchmark of 16 datasets, we experimentally show that different hyperparameter selection strategies lead to different conclusions about which algorithms perform better than others, and that using a small validation set is a practically feasible and principled way of tuning the hyperparameters for a given dataset.",
+      "bibtex": ""
+    }
+  ],
+  "2020": [
+    {
+      "type": "conference",
+      "title": "Now you see it, now you don't! Detecting Suspicious Pattern Absences in Continuous Time Series",
+      "authors": ["Vincent Vercruyssen", "Wannes Meert", "Jesse Davis"],
+      "venue": "SIAM International Conference on Data Mining",
+      "venueAbbr": "SDM",
+      "doi": "https://epubs.siam.org/doi/10.1137/1.9781611976236.15",
+      "pdf": "https://epubs.siam.org/doi/epdf/10.1137/1.9781611976236.15",
+      "dataset": null,
+      "code": "https://github.com/Vincent-Vercruyssen/absent_pattern_detection",
+      "presentation": null,
+      "comingsoon": false,
+      "abstract": "Given its large applicational potential, time series anomaly detection has become a crucial data mining task. Its goal is to identify periods of a time series where there is a deviation from the expected behavior. Existing approaches focus on analyzing whether the currently observed behavior differs from previously seen, normal behavior. In contrast, this paper tackles the the task where the absence of a previously observed behavior is indicative of an anomaly. In other words, a pattern that is expected to recur in the time series is absent. In real-world use cases, absent patterns can be linked to serious problems. For instance, if a scheduled, regular maintenance operation of a machine does not take place, this can be harmful to the machine at a later time. In this paper, we introduce the task of detecting when a specific pattern is absent in a real-valued time series. We propose a novel technique called FZapPa that can address this task. Empirically, FZapPa outperforms existing anomaly techniques on a benchmark of real-world datasets.",
+      "bibtex": ""
+    },
+    {
+      "type": "conference",
+      "title": "Transfer Learning for Anomaly Detection through Localized and Unsupervised Instance Selection",
+      "authors": ["Vincent Vercruyssen", "Wannes Meert", "Jesse Davis"],
+      "venue": "AAAI Conference on Artificial Intelligence",
+      "venueAbbr": "AAAI",
+      "doi": "https://ojs.aaai.org//index.php/AAAI/article/view/6068",
+      "pdf": "https://lirias.kuleuven.be/retrieve/553516",
+      "dataset": null,
+      "code": "https://github.com/Vincent-Vercruyssen/LocIT",
+      "presentation": null,
+      "comingsoon": false,
+      "abstract": "Anomaly detection attempts to identify instances that deviate from expected behavior. Constructing performant anomaly detectors on real-world problems often requires some labeled data, which can be difficult and costly to obtain. However, often one considers multiple, related anomaly detection tasks. Therefore, it may be possible to transfer labeled instances from a related anomaly detection task to the problem at hand. This paper proposes a novel transfer learning algorithm for anomaly detection that selects and transfers relevant labeled instances from a source anomaly detection task to a target one. Then, it classifies target instances using a novel semi-supervised nearest-neighbors technique that considers both unlabeled target and transferred, labeled source instances. The algorithm outperforms a multitude of state-of-the-art transfer learning methods and unsupervised anomaly detection methods on a large benchmark. Furthermore, it outperforms its rivals on a real-world task of detecting anomalous water usage in retail stores.",
+      "bibtex": ""
+    },
+    {
+      "type": "conference",
+      "title": "Class Prior Estimation in Active Positive and Unlabeled Learning",
+      "authors": ["Lorenzo Perini", "Vincent Vercruyssen", "Jesse Davis"],
+      "venue": "International Joint Conference on Artificial Intelligence",
+      "venueAbbr": "IJCAI",
+      "doi": "https://www.ijcai.org/Proceedings/2020/403",
+      "pdf": "https://lirias.kuleuven.be/retrieve/581772",
+      "dataset": null,
+      "code": "https://github.com/Lorenzo-Perini/Active_PU_Learning",
+      "presentation": null,
+      "comingsoon": false,
+      "abstract": "Estimating the proportion of positive examples (i.e., the class prior) from positive and unlabeled (PU) data is an important task that facilitates learning a classifier from such data. In this paper, we explore how to tackle this problem when the observed labels were acquired via active learning. This introduces the challenge that the observed labels were not selected completely at random, which is the primary assumption underpinning existing approaches to estimating the class prior from PU data. We analyze this new setting and design an algorithm that is able to estimate the class prior for a given active learning strategy. Empirically, we show that our approach accurately recovers the true class prior on a benchmark of anomaly detection datasets and that it does so more accurately than existing methods.",
+      "bibtex": ""
+    },
+    {
+      "type": "conference",
+      "title": "Quantifying the Confidence of Anomaly Detectors in their Example-Wise Predictions",
+      "authors": ["Lorenzo Perini", "Vincent Vercruyssen", "Jesse Davis"],
+      "venue": "European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases",
+      "venueAbbr": "ECML PKDD",
+      "doi": "https://link.springer.com/chapter/10.1007/978-3-030-67664-3_14",
+      "pdf": "https://lirias.kuleuven.be/retrieve/582042",
+      "dataset": "https://www.dbs.ifi.lmu.de/research/outlier-evaluation/DAMI/",
+      "code": "https://github.com/Lorenzo-Perini/Confidence_AD",
+      "presentation": null,
+      "comingsoon": false,
+      "abstract": "Anomaly detection focuses on identifying examples in the data that somehow deviate from what is expected or typical. Algorithms for this task usually assign a score to each example that represents how anomalous the example is. Then, a threshold on the scores turns them into concrete predictions. However, each algorithm uses a different approach to assign the scores, which makes them difficult to interpret and can quickly erode a user's trust in the predictions. This paper introduces an approach for assessing the reliability of any anomaly detector's example-wise predictions. To do so, we propose a Bayesian approach for converting anomaly scores to probability estimates. This enables the anomaly detector to assign a confidence score to each prediction which captures its uncertainty in that prediction. We theoretically analyze the convergence behaviour of our confidence estimate. Empirically, we demonstrate the effectiveness of the framework in quantifying a detector's confidence in its predictions on a large benchmark of datasets.",
+      "bibtex": ""
+    },
+    {
+      "type": "PhD thesis",
+      "title": "Designing Anomaly Detection Algorithms that Exploit Flexible Supervision",
+      "authors": ["Vincent Vercruyssen"],
+      "venue": "KU Leuven, Department of Computer Science, DTAI research group",
+      "venueAbbr": "DTAI @ KU Leuven",
+      "doi": null,
+      "pdf": "https://lirias.kuleuven.be/retrieve/596934",
+      "dataset": null,
+      "code": null,
+      "presentation": null,
+      "comingsoon": false,
+      "abstract": "",
+      "bibtex": ""
+    },
+    {
+      "type": "workshop",
+      "title": "A Ranking Stability Measure for Quantifying the Robustness of Anomaly Detection Methods",
+      "authors": ["Lorenzo Perini", "Connor Galvin", "Vincent Vercruyssen"],
+      "venue": "Evaluation and Experimental Design in Data Mining and Machine Learning workshop @ ECML PKDD",
+      "venueAbbr": "EDML",
+      "doi": "https://link.springer.com/chapter/10.1007/978-3-030-65965-3_27",
+      "pdf": "https://lirias.kuleuven.be/retrieve/603216",
+      "dataset": "https://www.dbs.ifi.lmu.de/research/outlier-evaluation/DAMI/",
+      "code": "https://github.com/Lorenzo-Perini/StabilityRankings_AD",
+      "presentation": null,
+      "comingsoon": false,
+      "abstract": "Anomaly detection attempts to learn models from data that can detect anomalous examples in the data. However, naturally occurring variations in the data impact the model that is learned and thus which examples it will predict to be anomalies. Ideally, an anomaly detection method should be robust to such small changes in the data. Hence, this paper introduces a ranking stability measure that quantifies the robustness of any anomaly detector's predictions by looking at how consistently it ranks examples in terms of their anomalousness. Our experiments investigate the performance of this stability measure under different data perturbation schemes. In addition, they show how the stability measure can complement traditional anomaly detection performance measures, such as area under the ROC curve or average precision, to quantify the behaviour of different anomaly detection methods.",
+      "bibtex": ""
+    },
+    {
+      "type": "workshop",
+      "title": "Why are you weird? Infusing Interpretability in Isolation Forest for Anomaly Detection",
+      "authors": [
+        "Nirmal Sobha Kartha",
+        "Clément Gautrais",
+        "Vincent Vercruyssen"
+      ],
+      "venue": "Explainable Agency in Artificial Intelligence workshop @ AAAI",
+      "venueAbbr": "XAI",
+      "doi": "https://arxiv.org/abs/2112.06858",
+      "pdf": "https://arxiv.org/pdf/2112.06858.pdf",
+      "dataset": null,
+      "code": "https://github.com/karthajee/AWS-IF-interpretability",
+      "presentation": null,
+      "comingsoon": false,
+      "abstract": "Anomaly detection is concerned with identifying examples in a dataset that do not conform to the expected behaviour. While a vast amount of anomaly detection algorithms exist, little attention has been paid to explaining why these algorithms flag certain examples as anomalies. However, such an explanation could be extremely useful to anyone interpreting the algorithms' output. This paper develops a method to explain the anomaly predictions of the state-of-the-art Isolation Forest anomaly detection algorithm. The method outputs an explanation vector that captures how important each attribute of an example is to identifying it as anomalous. A thorough experimental evaluation on both synthetic and real-world datasets shows that our method is more accurate and more efficient than most contemporary state-of-the-art explainability methods.",
+      "bibtex": ""
+    }
+  ],
+  "2019": [
+    {
+      "type": "conference",
+      "title": "Pattern-Based Anomaly Detection in Mixed-Type Time Series",
+      "authors": [
+        "Len Feremans",
+        "Vincent Vercruyssen",
+        "Boris Cule",
+        "Wannes Meert",
+        "Bart Goethals"
+      ],
+      "venue": "European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases",
+      "venueAbbr": "ECML PKDD",
+      "doi": "https://link.springer.com/chapter/10.1007/978-3-030-46150-8_15",
+      "pdf": "https://lirias.kuleuven.be/retrieve/550408",
+      "dataset": null,
+      "code": "https://bitbucket.org/len_feremans/pbad/src/master/",
+      "presentation": null,
+      "comingsoon": false,
+      "abstract": "The present-day accessibility of technology enables easy logging of both sensor values and event logs over extended periods. In this context, detecting abnormal segments in time series data has become an important data mining task. Existing work on anomaly detection focuses either on continuous time series or discrete event logs and not on the combination. However, in many practical applications, the patterns extracted from the event log can reveal contextual and operational conditions of a device that must be taken into account when predicting anomalies in the continuous time series. This paper proposes an anomaly detection method that can handle mixed-type time series. The method leverages frequent pattern mining techniques to construct an embedding of mixed-type time series on which an isolation forest is trained. Experiments on several real-world univariate and multivariate time series, as well as a synthetic mixed-type time series, show that our anomaly detection algorithm outperforms state-of-the-art anomaly detection techniques such as MatrixProfile, PAV, MIFPOD and FPOF.",
+      "bibtex": ""
+    },
+    {
+      "type": "workshop",
+      "title": "A Framework for Pattern Mining and Anomaly Detection in Multi-Dimensional Time Series and Event Logs",
+      "authors": [
+        "Len Feremans",
+        "Vincent Vercruyssen",
+        "Wannes Meert",
+        "Boris Cule",
+        "Bart Goethals"
+      ],
+      "venue": "New Frontiers in Mining Complex Patterns workshop @ ECML PKDD",
+      "venueAbbr": "NFCPM",
+      "doi": "https://link.springer.com/chapter/10.1007/978-3-030-48861-1_1",
+      "pdf": "https://lirias.kuleuven.be/retrieve/550412",
+      "dataset": null,
+      "code": "https://bitbucket.org/len_feremans/tipm_pub/src/master/",
+      "presentation": null,
+      "comingsoon": false,
+      "abstract": "In the present-day, sensor data and textual logs are generated by many devices. Analysing these time series data leads to the discovery of interesting patterns and anomalies. In recent years, numerous algorithms have been developed to discover interesting patterns in time series data as well as detect periods of anomalous behaviour. However, these algorithms are challenging to apply in real-world settings. We propose a framework, consisting of generic transformations, that allows to combine state-of-the-art time series representation, pattern mining, and pattern-based anomaly detection algorithms. Using an early- or late integration our framework handles a mix of multi-dimensional continuous series and event logs. In addition, we present an open-source, lightweight, interactive tool that assists both pattern mining and domain experts to select algorithms, specify parameters, and visually inspect the results, while shielding them from the underlying technical complexity of implementing our framework.",
+      "bibtex": ""
+    }
+  ],
+  "2018": [
+    {
+      "type": "conference",
+      "title": "Semi-supervised Anomaly Detection with an Application to Water Analytics",
+      "authors": [
+        "Vincent Vercruyssen",
+        "Wannes Meert",
+        "Gust Verbruggen",
+        "Koen Maes",
+        "Ruben Bäumer",
+        "Jesse Davis"
+      ],
+      "venue": "IEEE International Conference on Data Mining",
+      "venueAbbr": "IEEE ICDM",
+      "doi": "https://ieeexplore.ieee.org/document/8594877",
+      "pdf": "https://lirias.kuleuven.be/retrieve/517147",
+      "dataset": null,
+      "code": "https://github.com/Vincent-Vercruyssen/anomatools",
+      "presentation": null,
+      "comingsoon": false,
+      "abstract": "Nowadays, all aspects of a production process are continuously monitored and visualized in a dashboard. Equipment is monitored using a variety of sensors, natural resource usage is tracked, and interventions are recorded. In this context, a common task is to identify anomalous behavior from the time series data generated by sensors. As manually analyzing such data is laborious and expensive, automated approaches have the potential to be much more efficient as well as cost effective. While anomaly detection could be posed as a supervised learning problem, typically this is not possible as few or no labeled examples of anomalous behavior are available and it is oftentimes infeasible or undesirable to collect them. Therefore, unsupervised approaches are commonly employed which typically identify anomalies as deviations from normal (i.e., common or frequent) behavior. However, in many real-world settings several types of normal behavior exist that occur less frequently than some anomalous behaviors. In this paper we propose a novel constrained-clustering-based approach for anomaly detection that works in both an unsupervised and semi-supervised setting. Starting from an unlabeled data set, the approach is able to gradually incorporate expert-provided feedback to improve its performance. We evaluated our approach on real-world water monitoring time series data from supermarkets in collaboration with Colruyt Group, one of Belgiums largest retail companies. Empirically, we found that our approach outperforms the current detection system as well as several other baselines. Our system is currently deployed and used by the company to analyze water usage for 20 stores on a daily basis.",
+      "bibtex": ""
+    }
+  ],
+  "2017": [
+    {
+      "type": "workshop",
+      "title": "Transfer Learning for Time Series Anomaly Detection",
+      "authors": ["Vincent Vercruyssen", "Wannes Meert", "Jesse Davis"],
+      "venue": "Interactive Adaptive Learning workshop @ ECML PKDD",
+      "venueAbbr": "IAL @ ECML PKDD",
+      "doi": null,
+      "pdf": "https://lirias.kuleuven.be/retrieve/469246",
+      "dataset": null,
+      "code": "https://github.com/Vincent-Vercruyssen/transfertools",
+      "presentation": null,
+      "comingsoon": false,
+      "abstract": "Currently, time series anomaly detection is attracting significant interest. This is especially true in industry, where companies continuously monitor all aspects of production processes using various sensors. In this context, methods that automatically detect anomalous behavior in the collected data could have a large impact. Unfortunately, for a variety of reasons, it is often difficult to collect large labeled datasets for anomaly detection problems. Typically, only a few data sets will contain labeled data, and each of these will only have a very small number of labeled examples. This makes it difficult to treat anomaly detection as a supervised learning problem. In this paper, we explore using transfer learning in a time-series anomaly detection setting. Our algorithm attempts to transfer labeled examples from a source domain to a target domain where no labels are available. The approach leverages the insight that anomalies are infrequent and unexpected to decide whether or not to transfer a labeled instance to the target domain. Once the transfer is complete, we construct a nearest-neighbor classifier in the target domain, with dynamic time warping as the similarity measure. An experimental evaluation on a number of real-world data sets shows that the overall approach is promising, and that it outperforms unsupervised anomaly detection in the target domain.",
+      "bibtex": ""
+    }
+  ],
+  "2016": [
+    {
+      "type": "workshop",
+      "title": "Qualitative Spatial Reasoning for Soccer Pass Prediction",
+      "authors": ["Vincent Vercruyssen", "Luc De Raedt", "Jesse Davis"],
+      "venue": "Machine Learning and Data Mining for Sports Analytics workshop @ ECML PKDD",
+      "venueAbbr": "MLSA @ ECML PKDD",
+      "doi": null,
+      "pdf": "https://lirias.kuleuven.be/retrieve/404545",
+      "dataset": null,
+      "code": null,
+      "presentation": null,
+      "comingsoon": false,
+      "abstract": "Given the advances in camera-based tracking systems, many soccer teams are able to record data about the players' position during a game. Analysing these data is challenging, since they are fine-grained, contain implicit relational information between players, and contain the dynamics of the game. We propose the use of qualitative spatial reasoning techniques to address these challenges, and test our approach by learning a model for pass prediction over a real-world soccer dataset. Experimental evaluation shows that our approach is capable of learning meaningful models. Since we employ an inductive logic programming system to learn the model, it has the added benefit of producing interpretable rules.",
+      "bibtex": ""
+    }
+  ]
+}
