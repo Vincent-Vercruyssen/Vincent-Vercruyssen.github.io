@@ -7,3 +7,4 @@ cd ..
 cp ./react-page/build/index.html .
 cp ./react-page/build/manifest.json .
 cp -r ./react-page/build/static/ ./static/
+cp -r ./react-page/build/resources/ ./resources/
