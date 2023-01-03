@@ -6,7 +6,7 @@ To develop the webpage, go to the folder `react-site/`.
 Then, run `npm` to spin up a development version of the site.
 
 ```bash
-cd react-page/
+cd react-site/
 npm start
 ```
 
@@ -21,7 +21,7 @@ To update/change the page, go to the folder `react-site/`.
 When you are ready, build the webpage with the following commands:
 
 ```bash
-cd react-page/
+cd react-site/
 npm run build
 ```
 

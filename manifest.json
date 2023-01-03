@@ -1,6 +1,7 @@
 {
   "short_name": "Vincent Vercruyssen",
   "name": "Personal webpage of Vincent Vercruyssen",
+  "icons": [],
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#000000",
