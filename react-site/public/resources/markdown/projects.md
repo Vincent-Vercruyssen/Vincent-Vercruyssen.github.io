@@ -1,4 +1,4 @@
-I am currently co-founding **[Claytech](https://claytech-ai.github.io/)**, a KU Leuven spin-off company on the automatic construction of machine learning pipelines. My co-founder is [Samuel Kolb](https://www.kuleuven.be/wieiswie/nl/person/00092538).
+I am currently co-founding **[Predikt](http://predikt.tech/)**, a KU Leuven spin-off project in development on building financial digital twin technology for finance teams. My co-founders are [Samuel Kolb](https://www.linkedin.com/in/samuel-kolb-4179b136/) and [Nick Vandesype](https://www.linkedin.com/in/nickvandesype/).
 
 I maintain a few Python packages containing algorithms that I worked on during my PhD. The **[anomatools](https://github.com/Vincent-Vercruyssen/anomatools)** package contains several unsupervised and semi-supervised _anomaly detection_ algorithms. Anomaly detection algorithms aim to automatically identify examples in a dataset that are somehow different or abnormal. The **[transfertools](https://github.com/Vincent-Vercruyssen/transfertools)** package contains several _transfer learning_ algorithms. Transfer learning aims to reuse learned knowledge across different datasets.
 
